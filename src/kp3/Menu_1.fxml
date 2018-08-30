@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="621.0" prefWidth="969.0" style="-fx-background-color: #142430;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kp3.Menu_1Controller">
+   <children>
+      <HBox layoutX="118.0" layoutY="7.0" prefHeight="44.0" prefWidth="750.0">
+         <children>
+            <Label fx:id="txtdash" alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#pindahsistem" onMouseEntered="#mosenter1" onMouseExited="#mosexit1" onMousePressed="#mosenter1" prefHeight="44.0" prefWidth="115.0" text="DashBoard" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="txtsc" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseEntered="#mosenter2" onMouseExited="#mosexit2" prefHeight="44.0" prefWidth="154.0" text="Data Kapal" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="txtsa" alignment="CENTER" contentDisplay="CENTER" layoutX="125.0" layoutY="10.0" onMouseEntered="#mosenter3" onMouseExited="#mosexit3" prefHeight="44.0" prefWidth="139.0" text="Keberangkatan" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="txts" alignment="CENTER" contentDisplay="CENTER" layoutX="279.0" layoutY="10.0" onMouseEntered="#mosenter4" onMouseExited="#mosexit4" prefHeight="44.0" prefWidth="139.0" text="Kedatangan" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="txtu" alignment="CENTER" contentDisplay="CENTER" layoutX="418.0" layoutY="10.0" onMouseEntered="#mosenter5" onMouseExited="#mosexit5" prefHeight="44.0" prefWidth="103.0" text="Grafik" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="txtr" alignment="CENTER" contentDisplay="CENTER" layoutX="557.0" layoutY="10.0" onMouseEntered="#mosenter6" onMouseExited="#mosexit6" prefHeight="44.0" prefWidth="112.0" text="Setting" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="jendela" layoutX="14.0" layoutY="57.0" prefHeight="553.0" prefWidth="943.0" />
+   </children>
+</AnchorPane>

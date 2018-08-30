@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="root" onMouseDragged="#drag2" onMouseMoved="#pres2" prefHeight="387.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kp3.MenuController">
+   <children>
+      <Pane fx:id="pan" onMouseDragged="#drag" onMousePressed="#pres" prefHeight="387.0" prefWidth="523.0" style="-fx-background-color: #000000;">
+         <children>
+            <Pane fx:id="paan" layoutY="47.0" onMouseDragged="#drag1" onMousePressed="#pres1" prefHeight="326.0" prefWidth="523.0" style="-fx-background-color: #142430;">
+               <children>
+                  <CheckBox layoutX="113.0" layoutY="197.0" mnemonicParsing="false" text="Show Password" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </CheckBox>
+                  <Button layoutX="98.0" layoutY="249.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="149.0" style="-fx-background-color: #009BE2; -fx-background-radius: 0.6cm;" text="Login" textFill="WHITE">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="275.0" layoutY="249.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="149.0" style="-fx-background-color: #009BE2; -fx-background-radius: 0.6cm;" text="Register" textFill="WHITE">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <TextField layoutX="110.0" layoutY="84.0" prefHeight="38.0" prefWidth="292.0" />
+                  <Text fill="WHITE" layoutX="110.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <PasswordField layoutX="110.0" layoutY="148.0" prefHeight="38.0" prefWidth="292.0" />
+                  <Text fill="WHITE" layoutX="112.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

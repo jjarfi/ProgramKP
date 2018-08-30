@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="559.0" prefWidth="943.0" style="-fx-background-color: #142430;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sistem.SistemController">
+   <children>
+      <Pane layoutX="27.0" layoutY="51.0" prefHeight="226.0" prefWidth="258.0" style="-fx-background-color: #2F414F; -fx-background-radius: 0.4cm;" />
+      <Pane layoutX="343.0" layoutY="51.0" prefHeight="226.0" prefWidth="258.0" style="-fx-background-color: #2F414F; -fx-background-radius: 0.4cm;" />
+      <Pane layoutX="655.0" layoutY="51.0" prefHeight="226.0" prefWidth="258.0" style="-fx-background-color: #2F414F; -fx-background-radius: 0.4cm;" />
+      <Pane layoutX="390.0" layoutY="314.0" prefHeight="98.0" prefWidth="512.0" style="-fx-background-color: #2F414F; -fx-background-radius: 0.2cm;" />
+      <Pane layoutX="390.0" layoutY="438.0" prefHeight="98.0" prefWidth="512.0" style="-fx-background-color: #2F414F; -fx-background-radius: 0.2cm;" />
+   </children>
+</AnchorPane>
